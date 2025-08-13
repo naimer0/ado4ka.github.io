@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-image: url('https://images.wallpapersden.com/image/download/4k-cloudy-evening-cityscape_bmZlbGqUmZqaraWkpJRoam1prWdlaW0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#main {
+    background-image: url('https://i.pinimg.com/originals/c2/9a/d9/c29ad93c7ddc9a17cc6d591b7c7b01c3.png'); 
+    width: 300px;
+    height: 400px;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 15px;
+    border: 2px solid silver;
+    z-index: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Arimo';
+    word-spacing: 5px;
+    top: 200px;
+    position: relative;
+    z-index: 2;
+    color: #000000;
+}
+
+#avatar {
+    background-image: url('https://i.postimg.cc/Rh3yLkB5/imba.jpg'); 
+    width: 150px;
+    height: 150px;
+    position: fixed; 
+    top: calc(50% - 150px); 
+    left: 50%;
+    transform: translateX(-50%); 
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+#contacts {
+    top: 200px; 
+    right: 0px; 
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0; 
+    position: relative; 
+} 
+#contacts li {
+    margin: 0 2px;
+}
+#contacts a {
+    display: inline-block; 
+}
+#contacts img {
+    width: 100px; 
+    height: 100px; 
+    transition: transform 0.3s;
+}
+#contacts img:hover {
+    transform: scale(1.1);
+}
